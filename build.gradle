@@ -1,0 +1,13 @@
+
+// Apply the java plugin to add support for Java
+apply plugin: 'java'
+
+// In this section you declare where to find the dependencies of your project
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile group: 'edu.stanford.nlp', name: 'stanford-corenlp', version: '3.7.0'
+  compile group: 'edu.stanford.nlp', name: 'stanford-corenlp', version: '3.7.0', classifier: 'models'
+}
