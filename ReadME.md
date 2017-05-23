@@ -1,0 +1,1 @@
+ A simple demo on how to use basic Stanford NLP pipeline.
